@@ -1,0 +1,10 @@
+{
+    "titulo": "Black Mirror",
+    "director": "Juan Perez",
+    "numeroTemporadas": 10,
+    "actores":[
+        {"nombre":"actor1", "nacionalidad":"Mexico"},
+        {"nombre":"actor2", "nacionalidad":"España"},
+        {"nombre":"actor3", "nacionalidad":"Cuba"}
+    ]
+}
