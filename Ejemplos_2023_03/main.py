@@ -1,6 +1,5 @@
 
 
-
 #pip install reportlab
 nombre_cliente="Hotel Principal S.L."
 direccion="Avda. de Barcelona, 18"
@@ -19,10 +18,13 @@ conceptos = (
 #Crear la factura obteniendo los datos del fichero ejemplo_35_datos_facturacion.dat
 
 import pdf_creator
+hotel = (nombre_cliente, direccion, cif)
 
 if __name__ == "__main__":
     cv = pdf_creator.create_canvas("prueba")
-    pdf_creator.draw_header(cv, nombre_cliente)
+    pdf_creator.draw_header(cv, hotel)
     pdf_creator.draw_logo(cv)
     pdf_creator.draw_lines(cv)
+    pdf_creator.setValores(cv, conceptos)
+    pdf_creator.drawFooter(cv)
     pdf_creator.save_canvas(cv)
