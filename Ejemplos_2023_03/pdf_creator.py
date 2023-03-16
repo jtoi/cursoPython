@@ -19,7 +19,7 @@ def setValores(cv, valores):
         # print(valor)
         i += 1
         cv.drawString(0, tope+inc, f"{i:>4} {spc:>2} {linea[0]:<10}")
-        cv.drawString(396, tope+inc, f"{linea[1]}{precio:>8}{valor:>9}")
+        cv.drawString(396, tope+inc, f"{linea[1]}{precio:>8}€{valor:>9}€")
         # cv.drawString(416, tope+inc, f"{precio:>10}")
         # print(f"{precio:>10} {valor:>20}",end='')
         # cv.drawString(484, tope+inc, f"{valor:>12}")
@@ -27,8 +27,8 @@ def setValores(cv, valores):
     
     iva = '{0:.2f}'.format(total+total*0.12)
     total = '{0:.2f}'.format(total)
-    cv.drawString(430, 90, f"Total: {total:>7}")
-    cv.drawString(447, 45, f"IVA: {iva:>7}")
+    cv.drawString(430, 90, f"Total: {total:>7}€")
+    cv.drawString(447, 45, f"IVA: {iva:>7}€")
     print(total)
 
 

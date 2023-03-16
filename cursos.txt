@@ -1,0 +1,3 @@
+Python, CTI, 100 1
+Python, CTI, 100 1
+Excell, INAEM, 58 2E-3
