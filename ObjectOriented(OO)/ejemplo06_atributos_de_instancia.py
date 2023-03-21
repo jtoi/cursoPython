@@ -1,5 +1,4 @@
-class Serie: #causa propia #strike #Bienvenidos a utmark todo en HBO
-    def __init__(self, titulo, num_temp):
+class Serie: 
         self.titulo = titulo
         self.num_temp = num_temp
 

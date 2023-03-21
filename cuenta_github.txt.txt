@@ -14,3 +14,11 @@ random
 https://edube.org - cursos de python
 
 app.genmymodel.com
+
+Series
+causa propia
+strike 
+Bienvenidos a utmark todo en HBO
+
+
+def __init__(self, titulo, num_temp):
