@@ -25,3 +25,5 @@ def __init__(self, titulo, num_temp):
 github.com/fpaniaguaformacion
 
 https://www.msn.com/
+
+regex101.com expresiones regulares
