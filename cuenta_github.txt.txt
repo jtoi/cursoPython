@@ -27,3 +27,6 @@ github.com/fpaniaguaformacion
 https://www.msn.com/
 
 regex101.com expresiones regulares
+
+https://programacionfacil.org/
+online-python.com editor python en línea
